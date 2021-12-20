@@ -2,6 +2,10 @@ a{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: whitesmoke;
 }
+
+.container-fluid {
+    background-color: #F5FFFA;
+}
 .menu{
     background-color: blue;
 }
