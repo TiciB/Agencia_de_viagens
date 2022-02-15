@@ -10,6 +10,7 @@ class Destinos extends React.Component{
         return(
             <div>
                 <Header />
+                <div className="cardList">
                 <div class="card" style={{width: "18rem"}}>
                 <img src= {Salvador} class="card-img-top" alt="Cidade do Salvador" />
                 <div class="card-body">
@@ -18,6 +19,7 @@ class Destinos extends React.Component{
                 <button class="btn btn-primary">Ver mais</button>
                </div>
                 </div>
+                
                 <div class="card" style={{width: "18rem"}}>
                 <img src= {Manaus} class="card-img-top" alt="Cidade de Manaus" />
                 <div class="card-body">
@@ -26,6 +28,7 @@ class Destinos extends React.Component{
                 <button class="btn btn-primary">Ver mais</button>
                </div>
                 </div>
+
                 <div class="card" style={{width: "18rem"}}>
                 <img src= {Rio} class="card-img-top" alt="Cidade do Rio de Janeiro" />
                 <div class="card-body">
@@ -34,6 +37,7 @@ class Destinos extends React.Component{
                 <button class="btn btn-primary">Ver mais</button>
                </div>
                 </div>
+                </div> 
                 <Footer />
             </div>
         )
