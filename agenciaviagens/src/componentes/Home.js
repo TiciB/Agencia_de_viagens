@@ -2,9 +2,13 @@ import React from "react";
 import Rio from './Rio.jpg';
 import Salvador from './Salvador.jpg';
 import Manaus from './Manaus.jpg';
+import Header from "./Header";
+import Footer from "./Footer";
 class Home extends React.Component{
     render(){
         return(
+          <div>
+            <Header />
             <main>
             <div class="container-fluid">
                 <div id="#carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -29,7 +33,9 @@ class Home extends React.Component{
                     </button>
                   </div>
             </div>  
-        </main>   
+        </main> 
+        <Footer />
+        </div>  
         );
     }
 }
